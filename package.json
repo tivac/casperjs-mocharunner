@@ -1,0 +1,39 @@
+{
+    "name"    : "casperjs-mocharunner",
+    "version" : "0.0.1",
+    
+    "description" : "Run CasperJS-powered tests with Mocha",
+    "keywords"    : "casper casperjs phantomjs mocha testing",
+    "homepage"    : "https://github.com/tivac/phantomjs-mocha",
+    "bugs"        : "https://github.com/tivac/phantomjs-mocha/issues",
+    "author"      : "Pat Cavit <pcavit@gmail.com> (http://patcavit.com)",
+    
+    "repository" : {
+        "type" : "git",
+        "url"  : "git://github.com/tivac/phantomjs-mocha.git"
+    },
+    
+    "main" : "./bin/index.js",
+    
+    "directories" : {
+        "lib"  : "./lib",
+        "bin"  : "./bin"
+    },
+    
+    "dependencies" : {
+        "mocha"    : "1.8.x"
+    },
+    
+    "devDependencies" : {
+        "istanbul" : "0.1.x"
+    },
+    
+    "scripts" : {
+        "start" : "node ./bin/index.js -h",
+        "test"  : "istanbul test ./node_modules/mocha/bin/_mocha -- --ignore-leaks"
+    },
+    
+    "engine": {
+        "node": ">=0.8"
+    }
+}
