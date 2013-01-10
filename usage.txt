@@ -1,0 +1,9 @@
+casperjs-mocha version %VERSION%
+
+Usage:  casperjs .\bin\index.js [test path]
+        casperjs .\bin\index.js [test file]
+        
+Options:
+
+--help      Prints this help
+--tests     Define test file/dir location
