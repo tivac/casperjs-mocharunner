@@ -4,13 +4,13 @@
     
     "description" : "Run CasperJS-powered tests with Mocha",
     "keywords"    : "casper casperjs phantomjs mocha testing",
-    "homepage"    : "https://github.com/tivac/phantomjs-mocha",
-    "bugs"        : "https://github.com/tivac/phantomjs-mocha/issues",
+    "homepage"    : "https://github.com/tivac/casperjs-mocharunner",
+    "bugs"        : "https://github.com/tivac/casperjs-mocharunner/issues",
     "author"      : "Pat Cavit <pcavit@gmail.com> (http://patcavit.com)",
     
     "repository" : {
         "type" : "git",
-        "url"  : "git://github.com/tivac/phantomjs-mocha.git"
+        "url"  : "git://github.com/tivac/casperjs-mocharunner.git"
     },
     
     "main" : "./bin/index.js",
