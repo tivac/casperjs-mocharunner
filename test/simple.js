@@ -4,16 +4,15 @@
 "use strict";
 
 describe("test thing", function() {
-    console.log("test thing"); //TODO: REMOVE DEBUGGING
-    
     describe("smaller test thing", function() {
-        
-        console.log("smaller test thing"); //TODO: REMOVE DEBUGGING
-        
-        it("does a test", function() {
+        it("does a test", function(done) {
+            casper.start("http://google.com", function() {
+                assert(false, "false shouldn't pass assertion");
+            });
             
-            console.log("it does a test"); //TODO: REMOVE DEBUGGING
-        
+            casper.run(function() {
+                done();
+            });
         });
     });
 });
